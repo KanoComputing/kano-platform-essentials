@@ -1,0 +1,15 @@
+Source: kano-platform-essential
+Maintainer: Team Kano <dev@kano.me>
+Section: metapackages
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>=9.0.0)
+
+Package: kano-platform-essential
+Architecture: all
+Depends:
+    ${misc:Depends},
+    ${shlibs:Depends},
+    raspberrypi-bootloader,
+    raspberrypi-kernel
+Description: Meta package to group all essential platform libraries for Kano OS
