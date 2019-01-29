@@ -1,5 +1,5 @@
-kano-platform-essential (4.0.0-0) unstable; urgency=low
+kano-platform-essential (3.16.2-0) unstable; urgency=low
 
-  * Initial release of package to link all platform (RPi) dependencies
+  * Backport: Initial release of package to link all platform (RPi) dependencies
 
- -- Team Kano <dev@kano.me>  Tue, 3 Jul 2018 10:46:00 +0100
+ -- Team Kano <dev@kano.me>  Tue, 29 Jan 2019 11:46:00 +0000
